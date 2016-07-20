@@ -1,0 +1,16 @@
+<template>
+	<button>
+		{#inc this.$body}
+	</button>
+</template>
+
+<script>
+	import Regular from 'regularjs';
+
+	// you can also export Component Constructor here
+	export default Regular.extend({
+		init() {
+			console.log( 'Button' );
+		}
+	});
+</script>

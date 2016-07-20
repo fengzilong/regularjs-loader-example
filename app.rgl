@@ -1,0 +1,35 @@
+<template>
+	<div class="outter">
+		<div class="inner">
+			regularjs is awesome
+			<Button>yeah</Button>
+		</div>
+	</div>
+</template>
+
+<script>
+	import Button from './button';
+
+	export default {
+		component: {
+			'Button': Button,
+		},
+		init() {
+			console.log( 'App' );
+		}
+	}
+</script>
+
+<style lang="less">
+	html {
+		background-color: #F2F2F2;
+	}
+</style>
+
+<style lang="less" scoped>
+	.outter {
+		.inner {
+			color: #000;
+		}
+	}
+</style>
