@@ -1,6 +1,6 @@
 # regularjs-loader-example
 
-## Installation
+## Install
 
 ```bash
 $ npm i
